@@ -17,7 +17,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "php:fpm",
+      "image": "108610331730.dkr.ecr.us-east-1.amazonaws.com/php-fpm-drupal:latest",
       "essential": true,
       "memory": 128,
       "mountPoints": [
